@@ -204,13 +204,13 @@ DayCareStep::
 	ret z
 
 	dec a ; 1: Semi-compatible
-	lb bc, 20, 40
+	lb bc, 255, 255
 	jr z, .got_odds
 	dec a ; 2: Compatible
-	lb bc, 50, 80
+	lb bc, 255, 255
 	jr z, .got_odds
 	; 3: Very compatible
-	lb bc, 70, 88
+	lb bc, 255, 255
 .got_odds
 	ld a, OVAL_CHARM
 	ld [wCurKeyItem], a

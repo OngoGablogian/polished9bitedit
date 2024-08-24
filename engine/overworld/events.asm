@@ -941,9 +941,9 @@ CountStep:
 	; Every 256 steps, offset from the happiness incrementor by 128 steps,
 	; decrease the hatch counter of all your eggs until you reach the first
 	; one that is ready to hatch.
-	ld a, [wStepCount]
-	cp $80
-	jr nz, .skip_egg
+	;ld a, [wStepCount]
+	;cp $80
+	;jr nz, .skip_egg
 
 	farcall DoEggStep
 	jr nz, .hatch

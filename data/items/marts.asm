@@ -65,18 +65,16 @@ CherrygroveMartAfterDex:
 	db -1
 
 VioletMart:
-	db 11 ; # items
-	db POKE_BALL
-	db REPEAT_BALL
-	db POTION
-	db ESCAPE_ROPE
-	db ANTIDOTE
-	db PARALYZEHEAL
-	db AWAKENING
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db FLOWER_MAIL
+	db 9 ; # items
+	db PREMIER_BALL
+	db FULL_RESTORE
+	db MAX_REVIVE
+	db RARE_CANDY
+	db PP_MAX
+	db EXP_SHARE
+	db MAX_REPEL
+	db SACRED_ASH
+	db LUCKY_EGG
 	db -1
 
 AzaleaMart:
@@ -94,69 +92,82 @@ AzaleaMart:
 	db -1
 
 Goldenrod2FMart1:
-	db 9 ; # items
-	db POTION
-	db SUPER_POTION
-	db ANTIDOTE
-	db PARALYZEHEAL
-	db AWAKENING
-	db BURN_HEAL
-	db ICE_HEAL
-	db FULL_HEAL
-	db REVIVE
+	db 11 ; # items
+	db POKE_BALL
+	db PREMIER_BALL
+	db FULL_RESTORE
+	db MAX_REVIVE
+	db RARE_CANDY
+	db PP_MAX
+	db EXP_SHARE
+	db MAX_REPEL
+	db SACRED_ASH
+	db LUCKY_EGG
+	db BOTTLE_CAP
 	db -1
 
 Goldenrod2FMart2:
-	db 10 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db LUXURY_BALL
-	db TIMER_BALL
-	db QUICK_BALL
-	db ESCAPE_ROPE
-	db REPEL
-	db POKE_DOLL
-	db BLUESKY_MAIL
-	db MORPH_MAIL
+	db 12 ; # items
+	db METAL_COAT
+	db DRAGON_SCALE
+	db UP_GRADE
+	db DUBIOUS_DISC
+	db PROTECTOR
+	db ELECTIRIZER
+	db MAGMARIZER
+	db RAZOR_FANG
+	db RAZOR_CLAW
+	db OVAL_STONE
+	db ODD_SOUVENIR
+	db LINKING_CORD
 	db -1
 
 Goldenrod2FMart2Eevee:
-	db 11 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db LUXURY_BALL
-	db TIMER_BALL
-	db QUICK_BALL
-	db ESCAPE_ROPE
-	db REPEL
-	db POKE_DOLL
-	db BLUESKY_MAIL
-	db MORPH_MAIL
-	db EON_MAIL
+	db 12 ; # items
+	db METAL_COAT
+	db DRAGON_SCALE
+	db UP_GRADE
+	db DUBIOUS_DISC
+	db PROTECTOR
+	db ELECTIRIZER
+	db MAGMARIZER
+	db RAZOR_FANG
+	db RAZOR_CLAW
+	db OVAL_STONE
+	db ODD_SOUVENIR
+	db LINKING_CORD
 	db -1
 
 Goldenrod3FMart:
 Celadon5FMart2:
-	db 8 ; # items
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db X_SP_ATK
-	db X_SP_DEF
-	db X_ACCURACY
-	db DIRE_HIT
-	db GUARD_SPEC
+	db 11 ; # items
+	db LEAF_STONE
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db ICE_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db DUSK_STONE
+	db SHINY_STONE
+	db KINGS_ROCK
+	db EVERSTONE
 	db -1
 
 Goldenrod4FMart:
 Celadon5FMart1:
-	db 6 ; # items
+	db 11 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db ZINC
 	db HP_UP
+	db MAX_ELIXIR
+	db SHELL_BELL
+	db SOOTHE_BELL
+	db ABILITY_CAP
+	db ABILITYPATCH
 	db -1
 
 Goldenrod5FTMMart:
@@ -172,20 +183,26 @@ Goldenrod5FTMMart:
 	db -1
 
 GoldenrodHarborMart:
-	db 5 ; # items
+	db 8 ; # items
 	db ETHER
 	db ELIXIR
 	db MIRROR_HERB
 	db DESTINY_KNOT
 	db SURF_MAIL
+	db SILVER_LEAF
+	db GOLD_LEAF
+	db MINT_LEAF
 	db -1
 
 UndergroundMart:
-	db 4 ; # items
+	db 7 ; # items
 	db ENERGYPOWDER
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db SILVER_LEAF
+	db GOLD_LEAF
+	db MINT_LEAF
 	db -1
 
 EcruteakMart:
